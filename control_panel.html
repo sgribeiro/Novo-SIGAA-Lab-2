@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <header>
+        <meta charset="UTF-8">
+        <title> SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas </title>
+        <link rel="stylesheet" href="main.css">
+        
+        <style>
+            body 
+            {
+                background-color: rgb(140, 246, 211);
+            }
+        </style>
+
+        <p style="color:rgb(140, 246, 211)" id="control_pane_title_page">UFC - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</p>
+
+    </header>
+
+    <body>
+        <nav>
+            <a href="history.html">Histórico</a> |
+            <a href="components.html">Cadastrar Componentes</a> |
+            <a href="index.html">Sair</a>
+        </nav>
+
+        <img src="user_img.png" width="100" height="100"><br>                
+ 
+        <p>Fulano D. Tal<p>
+        <p>tal_fulano@alu.ufc.br</p>
+        <p>Indice de Rendimento Academico: 8.3</p>
+        <p>Creditos Cursados: 163/228</p>
+        <p>Tema: <input type="color" name="colorindo" id="0"> </p> <br>
+ 
+        <ul>
+            <li>Quimica Geral</li>
+            <li>Higiene e Segurança do Trabalho</li>
+            <li>Tecnologias Web</li>
+            <li>Musica e Tecnologias</li><br>
+        </ul>
+
+        <label type="text" name="obrigatorio">Disciplinas obrigatórias</label>
+        <progress id="1" value="2219" max="2219"></progress>
+
+        <label type="text" name="eletivas">Disciplinas eletivas</label>
+        <progress id="2" value="224" max="896"></progress>
+
+        <label type="text" name="estagio">Horas de estágio obrigatório</label>
+        <progress id="3" value="192" max="192"></progress>
+
+        <label type="text" name="complementares">Horas complementares</label>
+        <progress id="4" value="104" max="172"></progress>
+
+        <label type="text" name="extensao">Horas de extensão</label>
+        <progress id="5" value="104" max="172"></progress>
+
+        <label type="text" name="programacao">Horas de programação</label>
+        <progress id="6" value="700" max="800"></progress><br>
+
+        Integralizar: 
+        <ul>
+            <li>100h de Programação</li>
+            <li>68h de Extensão</li>
+            <li>68h de Complementares</li>
+            <li>672h de Eletivas</li><br>
+        </ul>
+        
+        <div id="control_pane_lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+
+        <footer>
+            SIGAA | Copyright © 2010-2022 - Superintendência de Tecnologia da Informação - UFC - Tec. Web I
+        </footer>
+    </body>
+
+</html>

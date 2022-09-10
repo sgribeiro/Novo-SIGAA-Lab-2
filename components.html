@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <header>
+        <meta charset="UTF-8">
+        <title> SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas </title>
+        <link rel="stylesheet" href="main.css">
+        
+        <style>
+            body 
+            {
+                background-color: rgb(247, 193, 131);
+            }
+        </style>
+
+        <p style="color:rgb(247, 193, 131)" id="components_title_page">UFC - SIGAA - Sistema Integrado de Gestão de Atividades Acadêmicas</p>
+    
+    </header>
+
+    <body>
+        <nav>
+            <a href="control_panel.html">Painel de Controle</a> |
+            <a href="history.html">Histórico</a> |
+            <a href="index.html">Sair</a>
+        </nav>
+        
+        <form name="meu_form">
+
+            <h2>Atividades complementares e de Extensão</h2>
+
+            <label for="nome">Nome</label>  
+            <input type="text" id="0" prequired="required" name="nome" />
+
+            <label for="horas">Horas</label>
+            <input type="text" id="1" prequired="required" name="horas" />
+
+            <label for="data">Data</label>
+            <input type="text" id="2" prequired="required" name="data" />
+
+            <label for="email">E-mail</label>            
+            <input type="text" id="3" prequired="required" name="email" />
+
+            <label for="contato">Contato</label>            
+            <input type="text" id="4" prequired="required" name="contato"/><br>
+
+            <input type="submit" class="enviar" onclick="Enviar();" value="Enviar" />
+        </form>
+        
+        <div id="components_lorem">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </div>
+
+        <footer>
+            SIGAA | Copyright © 2010-2022 - Superintendência de Tecnologia da Informação - UFC - Tec. Web I
+        </footer>
+    </body>
+
+</html>
